@@ -1,0 +1,9 @@
+create database email;
+use email;
+
+create table email(
+	email VARCHAR(100) PRIMARY KEY,
+	displayName VARCHAR(100),
+	groupName VARCHAR(100)
+);
+
